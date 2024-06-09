@@ -17,6 +17,7 @@ const useHideOnOutsideClick = (): [
     }
   };
 
+
   useEffect(() => {
     // Bind the event listener only if the element is show.
     if (showElement) {
